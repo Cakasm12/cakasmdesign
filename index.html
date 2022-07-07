@@ -1,0 +1,132 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+	font-family: 'Poppins';
+	line-height: 1,4;
+	background-color: #00008B;
+	width: 500px;
+	margin: auto;
+
+}
+
+form {
+
+	background: rgb(0, 0, 139);
+	padding: 2.5rem 2.4rem ;
+	border-radius: 2rem ;
+	width: 500px;
+	margin: auto;
+}
+.submit-button {
+width: 100px;
+padding: 0.75rem;
+background: red;
+color: white;
+border-radius: 2px;
+cursor: pointer;
+
+}
+
+.input-headings{
+	margin: 0 auto 1.25rem auto ;
+	padding: 0.25rem;
+
+}
+.form-input{
+	display: block;
+	width: 90%;
+	height: 2rem;
+	padding: 0.25rem 0.75rem;
+	background-color: #fff;
+	border: 1px solid;
+	border-radius: 0.25rem;
+
+}
+
+  </style>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<header>
+<h1 id="title">Cakasm Store</h1>
+</header>
+
+
+<body>
+
+<p id="description">Fill details below your complete your order</p>
+<form id="survey-form">
+
+<div class="input-headings">
+
+<label form="name" id="name-label"> Name </label>	
+<input id="name" type="text" name="name" placeholder="Enter your name" class="form-input" required> </input>
+<br>
+
+
+<label for="email" id="email-label"> Email </label>	
+<input id="email" type="email" name="email" placeholder="Enter your email" class="form-input" required> </input>
+<br>
+
+
+<label for="age" id="age-label"> Age </label>	
+<input id="Age" type="text" name="age" placeholder="Enter your age" class="form-input" required> </input>
+<br>
+
+<label for="number" id="number-label"> Number </label>	
+<input id="number" type="number" name="number" placeholder="Enter your number" class="form-input" min="13" max="100" required> </input>
+<br>
+
+
+<label for="dropdown" id="model"> Select model </label>	
+<select id="dropdown" class="form-input">
+<option value="Model 1"> Galaxy S22 Ultra </option>
+<option value="Model 2"> Galaxy Z Fold3 5G </option>
+<option value="Model 3">Galaxy Z Fold3  </option>
+
+</select> 
+<br>
+<br>
+
+<label for="model_color" id="model_color"> Model color: </label>
+<br>
+<input id="model_color" type="radio" name="model_color" id="black" name="color" value="black">
+<label for="model_color">Black</label>
+<br>
+<input id="model_color" type="radio" name="model_color" id="green" name="color" value="green">
+<label for="model_color">Green</label>
+<br>
+<input id="model_color" type="radio" name="model_color" id="yellow" name="color" value="yellow">
+<label for="model_color">Yellow</label>
+<br>
+<br>
+
+
+<label for="features" id="model_color"> <b> Add features </b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" id="black" name="color" value="Samsung">
+<label for="checkbox" id="model_color"> Galaxy S22 Ultra - $1259,00 </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" id="black" name="color" value="autopilot">
+<label for="checkbox" id="model_color"> Galaxy Z Fold3 5G- $1699,00 </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" id="black" name="color" value="Samsung">
+<label for="checkbox" id="model_color"> Galaxy Z Fold3 | Flip3 - $1799,00 </label>
+<br>
+
+<label id="features"> Additionnal comments </label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+<br>
+
+<input id="submit" type="submit" name="features" value="Please order">
+
+
+
+</div>
+</form>
+
+
+</body>
+</html>
